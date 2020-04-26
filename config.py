@@ -1,6 +1,6 @@
 mysql = {
-    "host": "localhost",
+    "host": "35.227.114.250",
     "user": "root",
-    "passwd": "",
+    "passwd": "the-password",
     "db": "mydb"
 }
