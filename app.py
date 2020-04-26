@@ -6,6 +6,10 @@ from storage import *
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/", methods=["GET"])
+def Hello():
+    return "Hello"
+
 #player endpoints
 #TODO: Bug fix - 500 error on baseball and softball
 @app.route("/player", methods=["GET"])
